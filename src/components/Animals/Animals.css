@@ -1,0 +1,10 @@
+.animal-div {
+    margin: 25px;
+}
+
+.fedme-span {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}
