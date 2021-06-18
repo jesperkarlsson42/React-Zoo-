@@ -37,8 +37,9 @@ export const Animals = () => {
     return (
       <div key={animal.id} className="animal-div">
         <Link to={`/animal/${animal.id}`}>{animal.name}</Link>
+        <p>{animal.shortDescription}</p>
         {diffHour >= 4 ? (
-          <span className="fedme-span">Jag är hungrig</span>
+          <span className="fedme-span">{animal.name} är hungrig</span>
         ) : (
           <></>
         )}
